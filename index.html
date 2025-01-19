@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPA HAPPY BIRTHDAY</title>
+    <style>
+    body{
+        background-image: url("./FAMILY.JPEG");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    button{
+        color: rgb(0, 0, 0);
+        padding: 7px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 50px;
+    }
+    </style>
+    <script>
+    function birthday(){
+        window.alert("HAPPY BIRTHDAY, PAPA");
+        const audio = new Audio ('happy birthday.m4a');
+        audio.play();
+    }
+    </script>
+</head>
+<body>
+    <button onclick="birthday()">button</button>
+</body>
+</html>
